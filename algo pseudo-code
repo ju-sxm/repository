@@ -1,0 +1,17 @@
+Début nbBonbonMax
+
+        Demander (réelArgent)
+          tant que réelArgent <= 0
+          Afficher "La somme d'argent doit être supérieur à 0."
+          Demander (réelArgent)
+        
+        Demander (réelPrix)
+          tant que prix <= 0
+          Afficher "Le prix doit être supérieur à 0."
+          Demander (réelPrix)
+        
+        nbBonbonsMax = argent / prix
+        nbBonbonsEntier = arrondi inférieur nbBonbonMax
+        Afficher nbBonbonEntier
+
+Fin nbBonbonMax
